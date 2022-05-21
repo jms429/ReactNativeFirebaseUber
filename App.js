@@ -5,11 +5,12 @@ export default function App() {
     <View
       style={{
         flex: 1,
+        backgroundColor: "coral",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Universal React with Expo</Text>
+      <Text>Universal React with TESeTw Expo</Text>
     </View>
   );
 }
