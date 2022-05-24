@@ -1,16 +1,8 @@
 import { View, Text } from "react-native";
+import Home from "./screens/Home";
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: "coral",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with TESeTw Expo</Text>
-    </View>
+    <Home/>
   );
 }
